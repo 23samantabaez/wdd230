@@ -13,10 +13,10 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
 }
 #profileImg{
-    height: 300px;
+    height: 250px;
     margin-right: 60px;
 }
 #profileImg, #fullName {
