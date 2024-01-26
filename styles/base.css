@@ -107,12 +107,11 @@ h3{
     text-align: center;
 }
 
-.mapCard {
+#map {
     width: 90%;
     height: auto;
     text-align: center;
     border: none;
-
 }
 
 footer {
