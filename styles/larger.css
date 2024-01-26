@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px){
+@media screen and (min-width: 40em){
     header{
         font-size: 35px;
     }
@@ -21,4 +21,22 @@
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 
+
+    
+    .navigation li {
+        display: inline-block;
+        flex: 1 1 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }
 }
+
+
+
+
