@@ -42,7 +42,7 @@ nav {
 .navigation{
     list-style: none;
     margin: 0 auto;
-    max-width: 760 px;
+    max-width: 800 px;
 }
 .navigation li{
     display: none;
