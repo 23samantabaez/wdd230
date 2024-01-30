@@ -86,7 +86,10 @@ hr.rounded {
     border-radius: 5px;
 }
 .typography{
-    padding: 10%;
+    padding: 7%;
+}
+.typography h3{
+    padding-bottom: 20px;
 }
 .typography p{
     display: inline;
