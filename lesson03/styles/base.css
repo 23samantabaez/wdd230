@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter&display=swap');
+
+main {
+    margin: 10%;
+}
+body {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+img {
+    max-width: 60%;
+    height: auto;
+    padding: 20px;
+}
+h1, h2, h3 {
+    font-family: 'Calistoga', serif;
+}
+
+header h1 {
+    font-size: 90px;
+}
+header h2 {
+    font-size: 45px;
+    margin-bottom: 10%;
+}
+
+.infoSection {
+    margin-top: 20px;
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #780000;
+    text-align: left;
+}
+.infoSection h3, h3 {
+    font-size: 30px;
+}
+.scenarios, .sitePurpose, .siteName{
+    padding: 20px;
+}
+.scenarios li{
+    padding: 5px;
+}
+
+
+.colorScheme {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.colorScheme img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 10%;
+    width: 60%;
+}
+
+#strongRed, #babyRed, #black, #blue {
+    color: #f5f5f5;
+}
+#strongRed, #babyRed, #black, #white, #blue {
+    padding: 10px;
+    display: inline;
+    margin: 0px
+}
+#strongRed {
+    background-color: #780000;
+}
+#babyRed {
+    background-color: #C1121F;
+}
+#black {
+    background-color: #000000;
+}
+#white {
+    background-color:#F5F5F5;
+    color: #000000;
+}
+#blue {
+    background-color: #669BBC;
+}
+
+
+hr.rounded {
+    border-top: 6px solid #669BBC;
+    border-radius: 5px;
+}
+.typography{
+    padding: 10%;
+}
+.typography p{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.wireframe {
+    margin-top: 10%;
+}
+#headingFont {
+    font-family: 'Calistoga', serif;
+}
+#paragraphFont {
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: #669BBC;
+    color: #f5f5f5;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.footer1 p {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
