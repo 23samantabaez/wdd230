@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Chamber home page">
+    <meta name="author" content="Samanta Baez Gomez">
+    <title>Chamber Page</title>
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://i.pinimg.com/564x/30/99/72/3099729dc5307524851c217000e9c07c.jpg">
+    <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="hero-container">
+            Québec Chamber of Commerce
+            <img src="images/chateauFrontenac.webp" alt="Hero Img Chateau Frontenac">
+            <button>Join Us!</button>
+        </div>
+    </header>
+    <main>
+        <section class="sectionEvents">
+            <h1>Events</h1>
+            <p id="eventsParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium aliquam magnam saepe tempore sint sapiente ab molestiae inventore placeat repellendus atque ad accusantium quod, odio explicabo consectetur, asperiores esse!</p>
+            <img src="images/eventImage.jpeg" alt="eventsImg">
+        </section>
+
+        <section class="sectionSpotlights">
+            <h1>Spotlights</h1>
+            <div class="spotlightContainer">
+                <p>Spotlight #1</p>
+                <p>Spotlight #2</p>
+                <p>Spotlight #3</p>
+            </div>
+        </section>
+
+        <section class="sectionWeather">
+            <h1>Weather</h1>
+            <p>-13°C | ☀︎ Currently Sunny</p>
+        </section>
+        
+    </main>
+
+   <footer>
+        <div class="footer1">
+            <p>© <span id="copyrightYear"></span></p>
+            <p id="footerName">Samanta Baez Gomez</p>
+            <p>WDD230 Chamber Site Project</p>
+        </div>
+        <div class="modified">
+            <p> Last modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+</body>
+</html>
