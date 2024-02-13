@@ -7,16 +7,16 @@
     <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Chamber home page">
     <meta name="author" content="Samanta Baez Gomez">
     <title>Chamber of Commerce</title>
-    <link rel="icon" href="favicon.ico">
+    
     <meta property="og:title" content="Quebec Chamber Home Page" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://i.pinimg.com/564x/24/37/cf/2437cf29ed3ff1e5d6a66e81648b4129.jpg">
     <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
 
-
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,25 +24,35 @@
 </head>
 <body>
     <a id="menu" href="#"></a>
+    <div id="mode">
+        💡/🕶️
+    </div>
     <nav>
         <ul class="navigation">
             <li><a href="#">Contact us</a></li>
             <li><a href="#">Sign up</a></li>
             <li><a href="#">About us</a></li>
+            <li><a href="#">Feedback</a></li>
         </ul>
     </nav>
-    <header>
+
+    <header id="hero">
         <div class="hero-container">
-            Québec Chamber of Commerce
-            <img src="images/chateauFrontenac.webp" alt="Hero Img Chateau Frontenac">
-            <button>Join Us!</button>
+            <img  id="hero-img" src="images/deuxChateauFront.jpeg" alt="Hero Img Chateau Frontenac">
         </div>
+        <section id="hero-msg">
+            <h2 class="home-title">Québec Chamber of Commerce</h2>
+            <button class="join-button" href="#">Join Us!</button>
+        </section>
     </header>
+
+
+
     <main>
         <section class="sectionEvents">
-            <h2>Events</h2>
+            <h2 id="events-title">Events</h2>
             <p id="eventsParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium aliquam magnam saepe tempore sint sapiente ab molestiae inventore placeat repellendus atque ad accusantium quod, odio explicabo consectetur, asperiores esse!</p>
-            <img src="images/eventImage.jpeg" alt="eventsImg">
+            <img id="events-img" src="images/eventImage.jpeg" alt="eventsImg">
         </section>
 
         <section class="sectionSpotlights">
