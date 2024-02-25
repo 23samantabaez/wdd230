@@ -39,12 +39,32 @@
         content: "X";
     }
 
-
-
-
     .footer1 p{
         display: block;
         padding: 10px;
     }
     
+}
+
+/* Initially hide all titles */
+.small-label, .medium-label, .large-label {
+    display: none;
+}
+/* Show/hide titles based on media queries */
+@media (max-width: 600px) {
+    .small-label {
+        display: block;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 959px) {
+    .medium-label {
+        display: block;
+    }
+}
+
+@media (min-width: 960px) {
+    .large-label {
+        display: block;
+    }
 }

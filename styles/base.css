@@ -172,11 +172,11 @@ footer p2{
     
 }
 
-.act3 a, .act3 p{
+.act a, .act p{
     display: inline;
 }
 
-.act3{
+.act{
     margin: 20px;
     margin-left: 5px;
 }

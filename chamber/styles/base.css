@@ -45,22 +45,23 @@ h2, h1{
     display: none;
 }
 
+
+
 .hero-container{
     font-family: 'Calistoga', serif;
     font-size: 40px;
     padding: 20px;
-}
-#hero {
-    position: relative;
-    height: 500px; /* Adjust height as needed */
-    overflow: hidden;
-}
-.hero-container {
     display: flex; /* or display: grid; */
     align-items: center;
     height: 100%;
     padding: 0%;
 }
+#hero {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+}
+
 #hero-img {
     width: 100%; /* Ensures image covers entire container */
     height: auto;
@@ -74,6 +75,28 @@ h2, h1{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/*Testing image sizes label*/
+
+
+.large-label, .medium-label, .small-label {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+}
+
+.large-label p, .medium-label p, .small-label p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Great Vibes", serif;
+}
+
+
+
 
 /* Additional styles for button and title */
 .home-title {

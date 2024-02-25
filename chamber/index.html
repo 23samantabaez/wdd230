@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.webp">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,22 +37,30 @@
     </nav>
 
     <header id="hero">
-        <div class="hero-container">
-            <img  id="hero-img" src="images/deuxChateauFront.jpeg" alt="Hero Img Chateau Frontenac">
-        </div>
+
+        <picture class="hero-images">
+            <source media="(max-width:600px)" srcset="images/SMALLimg_copy.png">
+            <source media="(min-width:601px) and (max-width: 959px)" srcset="images/MEDIUMimg_copy.png">
+            <source media="(min-width:960px)" srcset="images/LARGEimg.webp">
+            <div>
+                <p class="large-label">Large image</p>
+                <p class="medium-label">Medium image</p>
+                <p class="small-label">Small image</p> 
+                <img  id="hero-img" src="images/LARGEimg.webp" alt="large hero image">
+            </div>
+        </picture>
+
         <section id="hero-msg">
             <h1 class="home-title">Québec Chamber of Commerce</h1>
             <button class="join-button">Join Us!</button>
         </section>
     </header>
 
-
-
     <main>
         <section class="sectionEvents">
             <h2 id="events-title">Events</h2>
             <p id="eventsParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium aliquam magnam saepe tempore sint sapiente ab molestiae inventore placeat repellendus atque ad accusantium quod, odio explicabo consectetur, asperiores esse!</p>
-            <img id="events-img" src="images/eventImage.jpeg" alt="eventsImg">
+            <img id="events-img" src="images/eventImage.webp" alt="eventsImg">
         </section>
 
         <section class="sectionSpotlights">
@@ -66,7 +74,17 @@
 
         <section class="sectionWeather">
             <h2>Weather</h2>
-            <p>-13°C | ☀︎ Currently Sunny</p>
+            <p> -13 | ☀︎ Currently Sunny</p>
+
+            <label for="temperature">Temperature (°F):</label>
+            <input type="number" id="temperature">
+            <br>
+            <label for="windspeed">Wind Speed (mph):</label>
+            <input type="number" id="windspeed">
+            <br>
+            <button onclick="calculateWindChill()">Calculate Wind Chill</button>
+            <br>
+            <p id="windchill-result"></p>
         </section>
         
     </main>
@@ -82,5 +100,6 @@
         </div>
     </footer>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
