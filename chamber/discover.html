@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Chamber home page">
+    <meta name="author" content="Samanta Baez Gomez">
+    <title>Chamber of Commerce</title>
+    
+    <meta property="og:title" content="Quebec Chamber Home Page">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://i.pinimg.com/564x/24/37/cf/2437cf29ed3ff1e5d6a66e81648b4129.jpg">
+    <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="favicon.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a id="menu" href="#"></a>
+    <div id="mode">
+        💡/🕶️
+    </div>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+
+        <picture class="hero-images">
+            <source media="(max-width:600px)" srcset="images/SMALLimg_copy.png">
+            <source media="(min-width:601px) and (max-width: 959px)" srcset="images/MEDIUMimg_copy.png">
+            <source media="(min-width:960px)" srcset="images/LARGEimg.webp">
+            <div>
+                <p class="large-label">Large image</p>
+                <p class="medium-label">Medium image</p>
+                <p class="small-label">Small image</p> 
+                <img  id="hero-img" src="images/LARGEimg.webp" alt="large hero image">
+            </div>
+        </picture>
+
+        <section id="hero-msg">
+            <h1 class="home-title">Québec Chamber of Commerce</h1>
+            <button class="join-button">Join Us!</button>
+        </section>
+    </header>
+
+    <main>
+        
+        
+    </main>
+
+   <footer>
+        <div class="footer1">
+            <p>© <span id="copyrightYear"></span></p>
+            <p id="footerName">Samanta Baez Gomez</p>
+            <p>WDD230 Chamber Site Project</p>
+        </div>
+        <div class="modified">
+            <p> Last modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
