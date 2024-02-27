@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Chamber home page">
     <meta name="author" content="Samanta Baez Gomez">
-    <title>Chamber of Commerce</title>
+    <title>Chamber of Commerce Discover</title>
     
     <meta property="og:title" content="Quebec Chamber Home Page">
     <meta property="og:type" content="Website">
@@ -36,30 +36,42 @@
         </ul>
     </nav>
 
-    <header id="hero">
+    <header>
 
-        <picture class="hero-images">
-            <source media="(max-width:600px)" srcset="images/SMALLimg_copy.png">
-            <source media="(min-width:601px) and (max-width: 959px)" srcset="images/MEDIUMimg_copy.png">
-            <source media="(min-width:960px)" srcset="images/LARGEimg.webp">
-            <div>
-                <p class="large-label">Large image</p>
-                <p class="medium-label">Medium image</p>
-                <p class="small-label">Small image</p> 
-                <img  id="hero-img" src="images/LARGEimg.webp" alt="large hero image">
-            </div>
-        </picture>
-
-        <section id="hero-msg">
-            <h1 class="home-title">Québec Chamber of Commerce</h1>
-            <button class="join-button">Join Us!</button>
-        </section>
     </header>
+    <div class="container">
+        <aside class="sidebar">
+            <section class="card">
+                <h2>About</h2>
+                <p>this is the about paragraph Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates quod culpa voluptate, ut quidem corporis mollitia sed recusandae laudantium. Dolores impedit blanditiis unde quae nobis dolorem, non qui in.</p>
+            </section>
+            <section class="card">
+                <h2>Demographics</h2>
+                <p>This shows the demographics of the website</p>
+            </section>
+            <section class="card">
+                <iframe id="calendar" src="https://calendar.google.com/calendar/embed?src=a0ef2bcf6628397fc8fbb4f3d6fc69a18a9c24f6c0eb2578dcf1b8160f8c19da%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </section>
+        </aside>
 
-    <main>
-        
-        
-    </main>
+        <main class="content">  
+            <h1>Discover</h1>
+            <div class="images-container">
+                <img src="images/imageOne.webp" alt="image one">
+                <p>A team of three people</p>
+                <img src="images/imageTwo.webp" alt="image two">
+                <p>Teamwork</p>
+                <img src="images/imageThree.webp" alt="image three">
+                <p>Two paople shaking hands to make a deal</p>
+                <img src="images/imageFour.webp" alt="image four">
+                <p>A team working on a project</p>
+                <img src="images/imageFive.webp" alt="image five">
+                <p>Bussiness tools</p>
+                <img src="images/imageSix.webp" alt="image six">
+                <p>Project planning</p>
+            </div>
+        </main>
+    </div>
 
    <footer>
         <div class="footer1">

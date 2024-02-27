@@ -43,6 +43,10 @@
         display: block;
         padding: 10px;
     }
+
+    .container {
+        grid-template-columns: 1fr; /* Single column layout for mobile */
+    }
     
 }
 
@@ -68,3 +72,5 @@
         display: block;
     }
 }
+
+

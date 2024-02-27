@@ -174,3 +174,57 @@ footer {
     display: inline-block;
     padding: 15px;
 }
+
+/*Sidebar*/
+.container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Sidebar width and remaining space */
+    grid-gap: 20px; /* Gap between sidebar and main content */
+}
+  
+.sidebar {
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-bottom: 65px;
+}
+  
+.content {
+    padding: 60px;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Centers the images horizontally */
+}
+
+.images-container img {
+    max-width: 100%; /* Ensures images don't exceed container width */
+    margin-bottom: 10px; /* Optional: Adds spacing between images */
+}
+
+
+.card{
+    padding-bottom: 20px; 
+    margin-top: 60px;
+    outline: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+#calendar{
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.card p, .card h2{
+    padding: 20px;
+}
+.content img{
+    width: auto;
+    height: 10%;
+}
