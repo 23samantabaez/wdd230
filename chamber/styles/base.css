@@ -228,3 +228,7 @@ footer {
     width: auto;
     height: 10%;
 }
+
+.content img:hover {
+    box-shadow: 0 0 10px rgb(130, 129, 129);
+}
