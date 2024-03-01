@@ -183,6 +183,9 @@ footer p2{
     text-align: center;
     margin-top: 10%;
 }
+.recording-body{
+    background-color: var(--secondary-color);
+}
 #form-submit-button{
     color: black;
 }
