@@ -39,33 +39,27 @@
 
             <form id="registrationForm" action="#" method="post">
 
-                <!-- Username -->
                 <label for="username">Username:
                     <input type="text" id="username" name="username" required>
                 </label><br><br>
 
-                <!-- Password -->
                 <label for="password">Password:
                     <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and contain only alphanumeric characters" required>
                 </label><br><br>
 
-                <!-- Confirm Password -->
                 <label for="confirmPassword">Confirm Password:
                     <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPassword()">
                 </label><br><br>
 
-                <!-- Email -->
                 <label for="email">Email:
                     <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="A valid byui.edu email address">
                 </label><br><br>
 
-                <!-- Page Rating -->
                 <label for="rating">Page Rating:
                     <input type="range" id="rating" name="rating" min="1" max="10" step="1" onchange="displayRating()">
                     <span id="ratingValue">5</span>
                 </label><br><br>
 
-                <!-- Submit Button -->
                 <button>
                         <a href="record.html" id="form-submit-button" >Submit</a>
                 </button>
