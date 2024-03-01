@@ -1,0 +1,25 @@
+#recorded-message{
+    text-align: center;
+    margin-top: 10%;
+}
+.recording-body{
+    background-color: var(--secondary-color);
+}
+#form-submit-button{
+    color: black;
+}
+
+:root {
+    --primary-color: rgb(60, 28, 7);
+    --secondary-color: antiquewhite;
+    --font-size: 16px;
+    --padding: 10px;
+}
+
+.form-body {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: var(--font-size);
+    padding: var(--margin);
+    
+}
