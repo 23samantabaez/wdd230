@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Student home page">
+        <meta name="author" content="Samanta Baez Gomez">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Samanta Baez Student Home page">
+        <meta property="og:image" content="https://i.pinimg.com/564x/30/99/72/3099729dc5307524851c217000e9c07c.jpg">
+        <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+        
+        <title>Samanta Baez Gomez - WDD 230 - Forms Page</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body class="form-body">
+        <header>
+            <img src="images/profile.jpg" id="profileImg" alt="ProfileImg">
+            <h1 id="fullName">Samanta Baez Gomez</h1>
+        </header>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>User Registration Form</h2>
+
+            <form id="registrationForm" action="#" method="post">
+
+                <!-- Username -->
+                <label for="username">Username:
+                    <input type="text" id="username" name="username" required>
+                </label><br><br>
+
+                <!-- Password -->
+                <label for="password">Password:
+                    <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and contain only alphanumeric characters" required>
+                </label><br><br>
+
+                <!-- Confirm Password -->
+                <label for="confirmPassword">Confirm Password:
+                    <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPassword()">
+                </label><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:
+                    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="A valid byui.edu email address">
+                </label><br><br>
+
+                <!-- Page Rating -->
+                <label for="rating">Page Rating:
+                    <input type="range" id="rating" name="rating" min="1" max="10" step="1" onchange="displayRating()">
+                    <span id="ratingValue">5</span>
+                </label><br><br>
+
+                <!-- Submit Button -->
+                <button>
+                        <a href="record.html" id="form-submit-button" >Submit</a>
+                </button>
+
+            </form>    
+        </main>
+
+
+        <footer>
+            <div class="footer1">
+                <p>© <span id="copyrightYear"></span></p>
+                <p id="footerName">Samanta Baez Gomez</p>
+                <p id="country">Mexico/Canada</p>
+            </div>
+            <div class="modified">
+                <p> Last modified: <span id="lastModified"></span></p> 
+            </div>
+        </footer>
+        <script src="scripts/getdates.js" defer></script>
+    </body>
+</html>
