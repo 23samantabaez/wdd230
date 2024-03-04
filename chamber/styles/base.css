@@ -235,3 +235,111 @@ footer {
 .content img:hover {
     box-shadow: 0 0 10px rgb(130, 129, 129);
 }
+
+/*thank you*/
+.thanks-page{
+    background-color: #780000;
+}
+#thankyou-message{
+    color: #fff;
+    margin: 15%;
+}
+
+
+/* Form */
+
+.join-us{
+    margin-top: 8%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+}
+
+form {
+    width: 80%;
+    max-width: 500px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form > * {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*membership benefits*/
+.membership-benefits {
+    float: left; /* Float the benefits container to the right */
+    width: 30%; /* Adjust the width of the sidebar as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc; /* Add a border to separate from the main content */
+    text-align: left;
+    padding: 20px;
+}
+
+.membership-benefits h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.membership-benefits h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.membership-benefits ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.membership-benefits li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Add some styles to improve readability */
+.membership-benefits ul {
+    list-style-type: disc;
+    margin-bottom: 80px;
+}
+
+.membership-benefits ul ul {
+    list-style-type: circle;
+}
+
+footer {
+    clear: both;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Chamber home page">
+    <meta name="author" content="Samanta Baez Gomez">
+    <title>Chamber of Commerce</title>
+    
+    <meta property="og:title" content="Quebec Chamber Home Page">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="https://i.pinimg.com/564x/24/37/cf/2437cf29ed3ff1e5d6a66e81648b4129.jpg">
+    <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="favicon.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+        <a id="menu" href="#"></a>
+        <div id="mode">
+            💡/🕶️
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <div class="membership-benefits">
+            <h2>Membership Benefits</h2>
+
+            <h3>NP Membership (Non-Profit Organizations, No Fee):</h3>
+            <ul>
+                <li>Access to educational resources and webinars on non-profit management.</li>
+                <li>Networking opportunities with other non-profit leaders and organizations.</li>
+                <li>Discounted or free admission to non-profit-focused events and conferences.</li>
+                <li>Listing in the organization's directory of non-profit partners.</li>
+                <li>Access to grant opportunities and fundraising resources.</li>
+            </ul>
+
+            <h3>Bronze Membership:</h3>
+            <ul>
+                <li>Access to monthly networking events and mixers.</li>
+                <li>Discounted rates on advertising in the organization's newsletter or website.</li>
+                <li>Invitation to an annual members-only conference or workshop.</li>
+                <li>Recognition on the organization's website as a Bronze-level member.</li>
+                <li>Access to a members-only online forum or discussion group.</li>
+            </ul>
+
+            <h3>Silver Membership:</h3>
+            <ul>
+                <li>All benefits of Bronze Membership, plus:</li>
+                <li>Increased discount on advertising rates.</li>
+                <li>Priority registration and discounted rates for training programs and workshops.</li>
+                <li>Access to exclusive webinars or seminars with industry experts.</li>
+                <li>Recognition in the organization's annual report as a Silver-level member.</li>
+            </ul>
+
+            <h3>Gold Membership:</h3>
+            <ul>
+                <li>All benefits of Silver Membership, plus:</li>
+                <li>Complimentary registration for all organization events.</li>
+                <li>Exclusive invitation to a yearly VIP reception with industry leaders.</li>
+                <li>Featured spotlight on the organization's website or newsletter.</li>
+                <li>Priority access to sponsorship opportunities for organization events.</li>
+            </ul>
+        </div>
+        
+        <div class="join-us">
+            <h1>Join us!</h1>
+
+            <div class="form-container">
+                <form action="thankyou.html" method="get">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" name="position" required pattern="[A-Za-z\s\-]{7,}">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+
+                    <label for="membership">Membership Level:</label>
+                    <select id="membership" name="membership" required>
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+   <footer>
+        <div class="footer1">
+            <p>© <span id="copyrightYear"></span></p>
+            <p id="footerName">Samanta Baez Gomez</p>
+            <p>WDD230 Chamber Site Project</p>
+        </div>
+        <div class="modified">
+            <p> Last modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
