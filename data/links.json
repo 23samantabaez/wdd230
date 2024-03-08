@@ -1,0 +1,104 @@
+{
+    "lessons": [
+        {
+          "lesson": "02",
+          "links": [
+            {
+              "url":"lesson02/design-principles.html",
+              "title":"Media Queries"
+            },
+            {
+              "url":"lesson02/design-principles.html",
+              "title":"Design Principles Document"
+            }
+          ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+              {
+                "url":"lesson03/images/Screen_Shot_2024-01-25_at_8.36.24_AM.png",
+                "title":"CSS selectors"
+              },
+              {
+                "url":"lesson03/https://codepen.io/23samanta/pen/GReOJvy",
+                "title":"Pseudo Element"
+              },
+              {
+                "url":"lesson03/https://codepen.io/23samanta/pen/RwdjPZL",
+                "title":"Responsive Menu"
+              }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+              {
+                "url":"lesson04/https://codepen.io/23samanta/pen/mdoxBqe",
+                "title":"Pseudo Classes"
+              }
+            ]
+          },
+          {
+            "lesson": "05",
+            "links": [
+              {
+                "url":"lesson05/bom.html",
+                "title":"Book of Mormon Application"
+              }
+            ]
+          },
+          {
+            "lesson": "06",
+            "links": [
+              {
+                "url":"lesson06/images/landscape.webp",
+                "title":"WebP"
+              }
+            ]
+          },
+          {
+            "lesson": "07",
+            "links": [
+              {
+                "url":"lesson07/webapi.html",
+                "title":"Web storage API"
+              }
+            ]
+          },
+          {
+            "lesson": "08",
+            "links": [
+              {
+                "url":"lesson08/tablebuild.html",
+                "title":"Table Build"
+              },
+              {
+                "url":"lesson08/tablebuild.html",
+                "title":"HTML forms"
+              }
+            ]
+          },
+          {
+            "lesson": "09",
+            "links": [
+              {
+                "url":"lesson09/new-ward-members.json",
+                "title":"New members JSON"
+              },
+              {
+                "url":"lesson09/prophets.html",
+                "title":"Prophets Fetch API"
+              }
+            ]
+          },
+        {
+            "lesson": "10",
+            "links": [
+              {
+                "url":"#",
+                "title":"Activity 10"
+              }
+            ]
+        }
+}
