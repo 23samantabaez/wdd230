@@ -10,7 +10,7 @@ async function getLinks() {
 getLinks();
 
 const displayLinks = (lessons) => {
-    lessons.forEach((week) => {
+    lessons.forEach(week) => {
 
         let lesson = document.createElement('act');
         let links = document.createElement('a'); 

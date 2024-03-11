@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Bell Canada",
+      "address": "1 Carrefour Alexander-Graham-Bell, Verdun, QC H3E 3B3, Canada",
+      "phone": "+1 514-310-2355",
+      "website": "https://www.bell.ca/",
+      "logo": "https://i.pinimg.com/736x/a4/0e/76/a40e76d2e1ebe1b0c83c5fdc2ffbe8aa.jpg"
+    },
+    {
+      "name": "CAE Inc.",
+      "address": "8585 Côte-de-Liesse, Saint-Laurent, QC H4T 1G6, Canada",
+      "phone": "+1 514-341-6780",
+      "website": "https://www.cae.com/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/cae_INC.ico"
+    },
+    {
+      "name": "Molson Coors Beverage Company",
+      "address": "1555 Notre-Dame St E, Montreal, QC H2L 2R5, Canada",
+      "phone": "+1 514-521-1786",
+      "website": "https://www.molsoncoors.com/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/molson.ico"
+    },
+    {
+      "name": "Loto-Québec",
+      "address": "500 Sherbrooke St W, Montréal, QC H3A 3G6, Canada",
+      "phone": "+1 514-499-5200",
+      "website": "https://www.lotoquebec.com/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/loto_qc.ico"
+    },
+    {
+      "name": "Desjardins Group",
+      "address": "1 Complexe Desjardins, Montreal, QC H5B 1B2, Canada",
+      "phone": "+1 514-281-7000",
+      "website": "https://www.desjardins.com/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/desjardins.ico"
+    },
+    {
+      "name": "Ubisoft Montreal",
+      "address": "5505 Saint-Laurent Blvd, Montreal, QC H2T 1S6, Canada",
+      "phone": "+1 514-490-2000",
+      "website": "https://montreal.ubisoft.com/en/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/ubisoft.ico"
+    },
+    {
+      "name": "Boralex Inc.",
+      "address": "36 Lajeunesse St, Kingsey Falls, QC J0A 1B0, Canada",
+      "phone": "+1 819-363-6363",
+      "website": "https://www.boralex.com/",
+      "logo": "file:///Users/samantabaez/NEW-wdd230/wdd230/chamber/images/directory/boralex.ico"
+    }
+]
+  
