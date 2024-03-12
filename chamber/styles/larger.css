@@ -73,13 +73,13 @@
     }
 
     .company-card {
-        width: calc(33.33% - 40px); /* Calculate width for 3 columns with margin */
-        margin-right: 20px; /* Add margin between cards */
-        margin-bottom: 40px; /* Increase margin bottom */
+        width: calc(33.33% - 40px); 
+        margin-right: 20px; 
+        margin-bottom: 40px;
     }
 
     .company-card:nth-child(3n) {
-        margin-right: 0; /* Remove margin for every 3rd card */
+        margin-right: 0; 
     }
 }
 
