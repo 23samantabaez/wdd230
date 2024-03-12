@@ -45,12 +45,12 @@
     }
 
     .container {
-        grid-template-columns: 1fr; /* Single column layout for mobile */
+        grid-template-columns: 1fr; 
     }
     
 }
 
-/* Initially hide all titles */
+/* hide all titles */
 .small-label, .medium-label, .large-label {
     display: none;
 }
