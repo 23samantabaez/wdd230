@@ -352,7 +352,8 @@ footer {
 .company-card{
     background-color: white;
     margin: 15%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 25%;
 }
 #directory-page-title{
     margin: 80px;
