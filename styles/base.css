@@ -178,7 +178,13 @@ footer p2{
     margin: 20px;
     margin-left: 5px;
 }
-
+.weather-container{
+    text-align: center;
+    margin: 8%;
+}
+.weather-container div{
+    padding: 10px;
+}
 
 
   
