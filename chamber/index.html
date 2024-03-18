@@ -73,10 +73,9 @@
             </div>
         </section>
 
-        <section class="sectionWeather">
+        <!--<section class="sectionWeather">
             <h2>Weather</h2>
-            <p> -13 | ☀︎ Currently Sunny</p>
-
+        
             <label for="temperature">Temperature (°F):</label>
             <input type="number" id="temperature">
             <br>
@@ -86,8 +85,20 @@
             <button onclick="calculateWindChill()">Calculate Wind Chill</button>
             <br>
             <p id="windchill-result"></p>
-        </section>
-        
+        </section>-->
+
+        <div class="weather-container">
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <img id="weather-icon" src="" alt="Weather Icon">
+            <ul id="forecast-list" class="forecast-days"></ul>
+        </div>
+
+
+        <div id="banner" class="banner">
+            <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+            <button id="closeButton">Close</button>
+        </div>
     </main>
 
    <footer>
@@ -102,5 +113,7 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/chamber-weather.js"></script>
+    <script src="scripts/join-banner.js"></script>
 </body>
 </html>

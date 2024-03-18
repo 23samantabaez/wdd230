@@ -4,7 +4,7 @@ const currentTemp = document.querySelector('#temperature');
 const weatherIcon = document.querySelector('#weather-icon');
 const weatherDescription = document.querySelector('#description');
 
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=46.833194&lon=-71.335707&appid=42d339f8e93596e7f8966a60f85cc7d7`;
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=46.833194&lon=-71.335707&appid=42d339f8e93596e7f8966a60f85cc7d7&units=metric`;
 
 fetch(apiUrl)
     .then(response => {
