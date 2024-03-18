@@ -28,7 +28,7 @@ fetch(apiUrl)
     weatherIcon.setAttribute('alt', description);
 
     //for three day forecast
-    for (let i = 1; i < 32; i += 8) {
+    for (let i = 1; i < 24; i += 8) {
         const forecastTime = data.list[i].dt_txt;
         const forecastTemp = data.list[i].main.temp;
         const forecastDescription = data.list[i].weather[0].description;

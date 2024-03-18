@@ -406,18 +406,16 @@ hr{
 }
 .weather-container div{
     padding: 10px;
-    align-self: inl;
     text-decoration: none;
     text-align: center;
-    display: flex;
 }
-.forecast-days li {
+#forecast-list{ /*ul*/
+    display: flex;
+    text-align: center; /*to do: spread ou*/
+}
+#forecast-list li {
     display: inline;
     padding: 10px;
-    
-}
-
-.forecast-days li {
     text-align: center;
     padding: 10px;
     border: 1px solid #ccc;
