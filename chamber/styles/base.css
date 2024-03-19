@@ -105,8 +105,8 @@ h2, h1{
 }
 .join-button{
     padding: 10px 20px;
-    background-color: #f5f5f5;
-    color: #669BBC;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -114,8 +114,8 @@ h2, h1{
     text-transform: uppercase;
 }
 .join-button:hover {
-    background-color: #0056b3;
-    color:#f5f5f5;
+    background-color: #065281;
+    color:#ffffff;
 }
 
 .sectionEvents{
@@ -165,8 +165,8 @@ h2, h1{
 
 
 footer {
-    background-color: #669BBC;
-    color: #f5f5f5;
+    background-color: #065281;
+    color: #ffffff;
     padding: 15px;
     font-family: 'Inter', sans-serif;
 }
@@ -400,8 +400,8 @@ hr{
 .weather-container{
     text-align: center;
     margin: 0;
-    background-color: #0056b3;
-    color: #f5f5f5;
+    background-color: #065281;
+    color: white;
     padding: 20px;
 }
 .weather-container div{
@@ -417,7 +417,7 @@ hr{
     padding-top: 50px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #f5f5f5;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 5px;
@@ -444,4 +444,8 @@ li img{
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+#mode{
+    color: #f5f5f5;
 }
