@@ -16,26 +16,20 @@ fetch(apiUrl)
         return response.json();
 })
 .then(data => {
-    //extract data
-    const temperature = data.list[0].main.temp;
-    const description = data.list[0].weather[0].description;
-    const iconCode = data.list[0].weather[0].icon;
-
-    //Update html
-    currentTemp.textContent = `${temperature}°C`;
-    weatherDescription.textContent = `${description}`;
-    weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${iconCode}.png`);
-    weatherIcon.setAttribute('alt', description);
-
-    //for three day forecast
-    for (let i = 1; i < 24; i += 8) {
-        const forecastTime = data.list[i].dt_txt;
+    for (let i = 0; i < 32; i += 8) { // 8 timestamps per day
+        const forecastTime = new Date(data.list[i].dt_txt);
+        const forecastDate = forecastTime.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
         const forecastTemp = data.list[i].main.temp;
         const forecastDescription = data.list[i].weather[0].description;
-        
-        // Create list item for forecast
+        const iconCode = data.list[i].weather[0].icon;
+
         const listItem = document.createElement('li');
-        listItem.textContent = `${forecastTime} \n - ${forecastTemp} \n °C - ${forecastDescription}`;
+        listItem.innerHTML = `
+            <strong>${forecastDate}</strong>
+            <br>${forecastTemp} °C
+            <br>${forecastDescription}
+            <img src="https://openweathermap.org/img/w/${iconCode}.png" alt="Weather Icon">
+            `;
         forecastList.appendChild(listItem);
     }
 })

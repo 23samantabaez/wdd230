@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         banner.style.display = "block";
     }
 
-    // Close banner when close button is clicked
+    // to close banner
     closeButton.addEventListener("click", function() {
         banner.style.display = "none";
     });

@@ -407,20 +407,28 @@ hr{
 .weather-container div{
     padding: 10px;
     text-decoration: none;
-    text-align: center;
 }
 #forecast-list{ /*ul*/
-    display: flex;
-    text-align: center; /*to do: spread ou*/
+    display: flex; 
+    list-style-type: none;
+    justify-content: center;
 }
 #forecast-list li {
-    display: inline;
-    padding: 10px;
+    padding-top: 50px;
+    text-decoration: none;
     text-align: center;
-    padding: 10px;
     border: 1px solid #ccc;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
 }
-
+li img{
+    display: block;
+    margin: 0 auto; 
+    padding-top: 20px;
+}
 
 /*join banner*/
 .banner {
