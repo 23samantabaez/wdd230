@@ -39,11 +39,11 @@
         content: "X";
     }
 
-    #hero {
-        text-align: center; /* Center hero content */
+    #hero, .sectionEvents {
+        text-align: center; /* Center hero and events content */
     }
     
-    .home-title {
+    .home-title, .events-title {
         font-size: 24px;
     }
     
@@ -56,7 +56,7 @@
         margin-bottom: 0px;
     }
     
-    .hero-img {
+    .hero-img, #events-img {
         max-width: 100%; /* Ensure image doesn't overflow container */
         height: auto; /* Maintain aspect ratio */
     }
@@ -66,7 +66,7 @@
         padding: 10px;
     }
 
-    .container {
+    .container, .sectionEvents{
         grid-template-columns: 1fr; 
     }
 
@@ -88,12 +88,6 @@
 /* Show/hide titles based on media queries */
 @media (max-width: 600px) {
     .small-label {
-        display: block;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 959px) {
-    .medium-label {
         display: block;
     }
 }

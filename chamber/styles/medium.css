@@ -1,0 +1,14 @@
+@media (min-width: 601px) and (max-width: 959px) {
+    .medium-label {
+        display: block;
+    }
+    .sectionEvents{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    #events-img{
+        max-width: 70%;
+    }
+
+    /*make spotlights fit, one column? or three in one*/
+}
