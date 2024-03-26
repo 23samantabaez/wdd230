@@ -98,7 +98,7 @@ h2, h1{
 
 
 
-/* Additional styles for button and title */
+/*for button and title */
 .home-title{
     font-size: 36px;
     color: white;
@@ -400,6 +400,13 @@ hr{
 .list section img {
 	display: none; 
 }
+#iframe {
+    border: none;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+}
+
 
 /* weather container*/
 .weather-container{
