@@ -40,26 +40,26 @@
     }
 
     #hero {
-        text-align: center; /* Center-align hero content */
-      }
+        text-align: center; /* Center hero content */
+    }
     
-      .home-title {
-        font-size: 24px; /* Adjust font size for smaller screens */
-      }
+    .home-title {
+        font-size: 24px;
+    }
     
-      .join-button {
-        margin-top: 20px; /* Add some space between title and button */
-      }
+    .join-button {
+        margin-top: 5px; /* Add some space between title and button */
+    }
     
-      .hero-images {
+    .hero-images {
         display: block;
         margin-bottom: 0px;
-      }
+    }
     
-      .hero-img {
+    .hero-img {
         max-width: 100%; /* Ensure image doesn't overflow container */
         height: auto; /* Maintain aspect ratio */
-      }
+    }
 
     .footer1 p{
         display: block;
