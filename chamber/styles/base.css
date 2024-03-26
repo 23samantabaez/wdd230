@@ -210,7 +210,7 @@ footer {
     margin-bottom: 10px; /* Optional: Adds spacing between images */
 }
 
-
+/*sidebar*/
 .card{
     padding-bottom: 20px; 
     margin-top: 60px;
@@ -237,9 +237,11 @@ footer {
     font-size: 40px;
 }
 
-.content img:hover {
-    box-shadow: 0 0 10px rgb(130, 129, 129);
+.content img:hover{
+    box-shadow: 0 0 15px rgb(130, 129, 129);
+    transition: 0.5s;
 }
+
 
 /*thank you*/
 .thanks-page{
