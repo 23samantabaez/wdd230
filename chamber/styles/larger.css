@@ -39,6 +39,28 @@
         content: "X";
     }
 
+    #hero {
+        text-align: center; /* Center-align hero content */
+      }
+    
+      .home-title {
+        font-size: 24px; /* Adjust font size for smaller screens */
+      }
+    
+      .join-button {
+        margin-top: 20px; /* Add some space between title and button */
+      }
+    
+      .hero-images {
+        display: block;
+        margin-bottom: 0px;
+      }
+    
+      .hero-img {
+        max-width: 100%; /* Ensure image doesn't overflow container */
+        height: auto; /* Maintain aspect ratio */
+      }
+
     .footer1 p{
         display: block;
         padding: 10px;
@@ -46,6 +68,15 @@
 
     .container {
         grid-template-columns: 1fr; 
+    }
+
+    .spotlightContainer {
+        grid-template-columns: 1fr; /* Display spotlight cards as one column */
+      }
+    
+      /* Optionally, you can adjust other styles for better mobile layout */
+    .spotlight-card {
+        margin-bottom: 20px; /* Add some space between the cards */
     }
     
 }
