@@ -1,0 +1,279 @@
+/* CSS Stylesheet */
+:root {
+    --primary: #4A5E4A;
+    --secondary: white;
+    --third: #333;
+  }
+
+/*navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 40px;
+}
+#nav_links {
+    list-style-type: none; /* Remove default list styles */
+    display: flex; /* Use flexbox to horizontally align items */
+    justify-content: flex-end;
+ 
+}
+
+#nav_links.active {
+    display: block; /* Stack menu items vertically */
+}
+  
+#nav_links li {
+    margin-right: 70px; /* Add spacing between navigation items */
+}
+
+#nav_links li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 20px;
+}
+.nav-toggle {
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 10px;
+    display: none;
+}
+
+/*footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 60px 0;
+    text-align: center; /* Center-align text */
+}
+
+/*HERO*/
+.hero {
+    position: relative; /* Position the hero section */
+    overflow: hidden; /* Hide any overflowing content */
+    height: 550px; /* Set the height of the hero section */
+}
+
+#hero-img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Make the image fill its container */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio to cover the entire container */
+    position: absolute; /* Position the image */
+    top: 0; /* Position the image at the top */
+    left: 0; /* Position the image at the left */
+    z-index: -1; /* Place the image behind the content */
+    filter: brightness(85%);
+    
+}
+
+.hero-content {
+    position: relative; /* Position the content relative to the hero section */
+    z-index: 1; /* Place the content above the image */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 100px; /* Add padding for content */
+    padding-top: 150px
+}
+
+
+/*HERO BUTTON*/
+.action-button {
+    display: inline-block; /* Make the button display inline */
+    background-color: rgb(255, 255, 255); /* Button background color */
+    color: black; /* Button text color */
+    padding: 10px 20px; /* Add padding to the button */
+    text-decoration: none; /* Remove default link underline */
+    border-radius: 5px; /* Add border radius to button */
+    transition: background-color 0.3s; /* Smooth transition for button color */
+}
+.action-button:hover {
+    background-color: var( --primary); /* Change button background color on hover */
+    color: var(--secondary);
+}
+
+
+/*ABOUT HOME SECTION*/
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+.about-content {
+    flex: 1;
+    padding: 0 80px;
+}
+.about-content h2 {
+    color: #333;
+}
+.about-content p {
+    color: #666;
+}
+.about-image {
+    flex: 1;
+    padding-top: 30px;
+}
+.about-image img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/*HOME TYPE RENTALS CARDS*/
+.card-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.card {
+    flex: 1;
+    margin: 0 50px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card-text p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
+
+/*WEATHER SECTION*/
+.weather-container{
+    text-align: center;
+    margin: 100px 0;
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+}
+.weather-container div{
+    padding: 10px;
+    text-decoration: none;
+}
+#forecast-list{ /*ul*/
+    display: flex; 
+    list-style-type: none;
+    justify-content: center;
+}
+#forecast-list li {
+    padding-top: 50px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+li img{
+    display: block;
+    margin: 0 auto; 
+    padding-top: 20px;
+}
+
+/* RESERVATIONS PAGE ----------------*/
+
+/*form*/
+/* Apply basic styles to the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: (--primary);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333633;
+}
+
+/*divided section */
+#reservation-page{
+    background-image: url(https://images.pexels.com/photos/8332450/pexels-photo-8332450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.container {
+    display: flex; /* Use flexbox to divide the section */
+    justify-content: space-between; /* Space the two parts evenly */
+    width: 90%; /* Set a maximum width for the container */
+    margin: 100px auto; /* Center the container horizontally */
+    padding: 0px; /* Add some padding for spacing */
+    
+}
+
+.left-part, .right-part {
+    width: 48%; /* Set the width of each part */
+    margin: 0%;
+    padding: 60px;
+    /* Add additional styling as needed */
+}
+
+.left-part, #form-submit-button{
+    background-color: var(--primary);
+    color: var(--secondary); /*white*/
+}
+.right-part{
+    background-color: var(--secondary); /*white*/
+}
+.agreements-list li{
+    padding: 15px 0;
+}
+#reservation-form{
+    margin-top: 10%;
+}
+#form-submit-button{
+    width: 90%;
+    text-align: center;
+}
+
+/*CONTACT PAGE*/
+
+/*meet us section*/

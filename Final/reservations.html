@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Final Project page">
+    <meta name="author" content="Samanta Baez Gomez">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Samanta Baez Final Project page">
+    <meta property="og:image" content="https://i.pinimg.com/564x/30/99/72/3099729dc5307524851c217000e9c07c.jpg">
+    <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+        
+    <title>Samanta Baez Gomez - WDD 230 - Final Project</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body id="reservation-page">
+    <nav>
+        <div class="nav-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul id="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rental types</a></li>
+            <li><a href="reservations.html">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="left-part">
+            <h2>Make a reservation!</h2><br>
+            <p>Reservation and rental agreements</p>
+            <ul class="agreements-list">
+                <li>Vehicle Use: The rented vehicle is to be used solely for personal transportation purposes. Any commercial use of the vehicle is strictly prohibited.</li>
+                <li>Driver Requirements: Only drivers listed on the rental agreement are authorized to operate the vehicle. All drivers must possess a valid driver's license and meet the minimum age requirement specified by the rental company.</li>
+                <li>Vehicle Inspection: The renter is responsible for inspecting the vehicle for any pre-existing damages or issues before taking possession. Any damages should be reported to the rental company immediately to avoid liability.</li>
+                <li>Fuel Policy: The vehicle should be returned with the same level of fuel as when it was rented. Failure to do so may result in additional charges.</li>
+                <li>Insurance Coverage: The rental agreement includes basic insurance coverage for the rented vehicle. Additional insurance options are available for purchase to provide further coverage.</li>   
+                <li>Late Return: The renter is expected to return the vehicle by the specified return date and time. Late returns may result in additional charges.</li>
+                <li>Prohibited Activities: Smoking, off-road driving, and towing other vehicles are strictly prohibited. Violation of these terms may result in penalties and additional charges.</li>
+                <li>Responsibility for Damages: The renter is responsible for any damages to the vehicle, including but not limited to accidents, collisions, and theft. The rental company may charge the renter for repair costs and loss of use.</li>
+                <li>Additional Charges: The rental agreement may include additional charges for services such as additional drivers, child seats, and navigation systems.</li>
+                <li>For further questions, be sure to contact us at 501-335-2137</li>
+            </ul>
+        </div>
+
+
+        <div class="right-part">
+            <form id="reservation-form" action="/submit-form" method="POST">
+
+                <label for="form-name">Name:</label><br>
+                <input type="text" id="form-name" name="name" required><br><br>
+
+                <label for="form-email">Email:</label><br>
+                <input type="email" id="form-email" name="email" required><br><br>
+
+                <label for="form-country">Country:</label><br>
+                <input type="text" id="form-country" name="country" required><br><br>
+
+                <label for="form-phone-number">Phone number:</label><br>
+                <input type="tel" id="form-phone-number" name="phone" required><br><br><br>
+
+                <label for="form-date">Reservation date:</label><br>
+                <input type="date" id="form-date" name="date" required><br><br><br>
+
+                <label for="form-time">Time:</label><br>
+                <input type="time" id="form-time" name="time" required><br><br><br>
+
+                <label for="form-type">Rental Type: </label><br>
+                <select name="rentals" id="form-type">
+                    <option value="default">Choose an option</option>
+                    <option value="scooter">Scooter</option>
+                    <option value="atvs">ATVs</option>
+                    <option value="jeep">Jeep</option>
+                </select><br><br><br>
+
+                <label for="form-comment">Reservation comment:</label><br>
+                <input type="text" id="form-comment" name="comment" required><br><br><br>
+        
+                <a id="form-submit-button" href="thankyou.html" class="action-button">Submit</a>
+
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>© <span id="copyrightYear"></span></p> 
+        <p>Samanta Baez Gomez</p>
+        <p>WDD230 Final Site Project</p>
+        <div class="modified">
+            <p> Last modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
+    <script src="scripts/final.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

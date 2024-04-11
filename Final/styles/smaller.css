@@ -1,0 +1,48 @@
+
+/*SMALLER SCREENS*/
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 300px; /* Adjust the height for smaller screens */
+    }
+    
+    .hero-content {
+        padding: 50px; /* Adjust padding for smaller screens */
+    }
+    .about-section {
+        flex-direction: column; /* Change to column layout */
+        align-items: center;
+    }
+    .about-content {
+        padding: 0; /* Remove horizontal padding */
+        text-align: center; /* Center-align text */
+    }
+    .about-image img {
+        margin-top: 20px; /* Add margin to separate image from text */
+        width: auto;
+    }
+    .card-section {
+        flex-direction: column; /* Display cards in one column on smaller screens */
+        align-items: center; /* Center cards vertically */
+    }
+    .card{
+        margin: 30px 0;
+    }
+
+    /*ham MENU*/
+    #nav_links {
+        display: none;; /* Show the menu items by default on smaller screens */
+        flex-direction: column; /* Stack menu items vertically */
+    }
+    
+    .nav-toggle {
+        display: block; /* Show the toggle button on smaller screens */
+    }
+
+}
+
+/*MEDIUM SCREENS*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .about-image img { 
+        width: auto;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Samanta Baez Gomez - Web Frontend Development Course Final Project page">
+    <meta name="author" content="Samanta Baez Gomez">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Samanta Baez Final Project page">
+    <meta property="og:image" content="https://i.pinimg.com/564x/30/99/72/3099729dc5307524851c217000e9c07c.jpg">
+    <meta property="og:url" content="https://23samantabaez.github.io/wdd230/">
+        
+    <title>Samanta Baez Gomez - WDD 230 - Final Project</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <div class="nav-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul id="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rental types</a></li>
+            <li><a href="reservations.html">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <img id="hero-img" src="images/contact-hero-img.webp" alt="large hero image">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, comments, do not hesitate!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-part">
+            <h2>Find us here!</h2>
+        </div>
+
+
+        <div class="right-part">
+            <h2 id="meet-title">Meet us</h2>
+            <ul>
+                <li>Phone Number</li>
+                <li>Email</li>
+                <li>Location</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h2>We want your fedback!</h2>
+        <form id="reservation-form" action="/submit-form" method="POST">
+
+            <label for="contact-name">Name:</label><br>
+            <input type="text" id="contact-name" name="name" required><br><br>
+
+            <label for="contact-email">Email:</label><br>
+            <input type="email" id="contact-email" name="email" required><br><br>
+
+            <label for="contact-phone-number">Phone number:</label><br>
+            <input type="tel" id="contact-phone-number" name="phone" required><br><br><br>
+
+            <label for="contact-comment">Comment:</label><br>
+            <input type="text" id="contact-comment" name="comment" required><br><br><br>
+    
+            <a id="form-submit-button" href="thankyou.html" class="action-button">Submit</a>
+
+        </form>
+    </div>
+
+    <!-- Main content of your website goes here -->
+
+    <footer>
+        <p>© <span id="copyrightYear"></span></p> 
+        <p>Samanta Baez Gomez</p>
+        <p>WDD230 Final Site Project</p>
+        <div class="modified">
+            <p> Last modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
+    <script src="scripts/final.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
