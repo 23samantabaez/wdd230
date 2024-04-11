@@ -3,49 +3,49 @@
         {
             "RentalType": "~Honda Metro Scooter",
             "MaxPersons": 1,
-            "HalfDay(3hrs)_Reservation": "$20",
+            "HalfDay_Reservation": "$20",
             "FullDay_Reservation": "$30",
-            "HalfDay(3hrs)_Walk-In": "$25",
+            "HalfDay_Walk-In": "$25",
             "FullDay_Walk-In": "$35"
         },
         {
             "RentalType": "~Honda Dio Scooter",
             "MaxPersons": 2,
-            "HalfDay(3hrs)_Reservation": "$30",
+            "HalfDay_Reservation": "$30",
             "FullDay_Reservation": "$40",
-            "HalfDay(3hrs)_Walk-In": "$35",
+            "HalfDay_Walk-In": "$35",
             "FullDay_Walk-In": "$45"
         },
         {
             "RentalType": "~Honda PCX150 Scooter",
             "MaxPersons": 2,
-            "HalfDay(3hrs)_Reservation": "$40",
+            "HalfDay_Reservation": "$40",
             "FullDay_Reservation": "$50",
-            "HalfDay(3hrs)_Walk-In": "$45",
+            "HalfDay_Walk-In": "$45",
             "FullDay_Walk-In": "$55"
         },
         {
             "RentalType": "Honda Pioneer ATV",
             "MaxPersons": 4,
-            "HalfDay(3hrs)_Reservation": "$50",
+            "HalfDay_Reservation": "$50",
             "FullDay_Reservation": "$70",
-            "HalfDay(3hrs)_Walk-In": "$60",
+            "HalfDay_Walk-In": "$60",
             "FullDay_Walk-In": "$80"
         },
         {
             "RentalType": "Jeep Wrangler - 4 door with a/c",
             "MaxPersons": 5,
-            "HalfDay(3hrs)_Reservation": "$70",
+            "HalfDay_Reservation": "$70",
             "FullDay_Reservation": "$100",
-            "HalfDay(3hrs)_Walk-In": "$85",
+            "HalfDay_Walk-In": "$85",
             "FullDay_Walk-In": "$125"
         },
         {
             "RentalType": "Jeep Wrangler - 2 door",
             "MaxPersons": 4,
-            "HalfDay(3hrs)_Reservation": "$60",
+            "HalfDay_Reservation": "$60",
             "FullDay_Reservation": "$85",
-            "HalfDay(3hrs)_Walk-In": "$70",
+            "HalfDay_Walk-In": "$70",
             "FullDay_Walk-In": "$90"
         }
     ]

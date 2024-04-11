@@ -4,7 +4,9 @@
     --secondary: white;
     --third: #333;
   }
-
+h2, ul{
+    margin: 0;
+}
 /*navigation bar */
 nav {
     background-color: #333; /* Dark background color */
@@ -211,7 +213,7 @@ form {
     background-color: #f9f9f9;
 }
 
-h2 {
+.title {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -264,7 +266,7 @@ input[type="submit"]:hover {
     /* Add additional styling as needed */
 }
 
-.left-part, #form-submit-button{
+.left-part, #form-submit-button, #rental-agreements{
     background-color: var(--primary);
     color: var(--secondary); /*white*/
 }
@@ -288,7 +290,6 @@ input[type="submit"]:hover {
     height: 100%;
     width: 100%;
 }
-
 /*meet us section*/
 .contact-container{
     justify-content: start;
@@ -305,7 +306,7 @@ input[type="submit"]:hover {
     margin-left: 100px;
 }
 
-.contact-meetus{
+.contact-meetus, .rental-info{
     padding-top: 8%;
 }
 #feedback-form{
@@ -318,8 +319,45 @@ input[type="submit"]:hover {
     padding: 5%;
 }
 .rental-type-container{
-    margin: 100px;
-    background-color: var(--primary);
-    padding: 10%;
-    text-align: center;
+    margin: 0px;
+}
+.rental-type{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px;
+}
+.rental-type img{
+    max-width: 400px;
+    grid-column: 2 / span 2;
+}
+.rental-info h2{
+    padding: 45px;
+}
+
+#type-scooter, #type-jeep{
+    color: var(--secondary);
+}
+#type-scooter {
+    background-color: #3e4363; /* Light gray background */
+}
+#type-atv {
+    background-color: var(--secondary); /* Light gray background */
+}
+#type-jeep {
+    background-color: var(--primary); /* Light gray background */
+}
+
+
+#rental-agreements{
+    padding: 50px;
+    margin: 10%;
+    max-width: 80%;
+}
+#rental-agreements h2{
+    margin: 15px 10px 40px 10px;
+    padding: 3% 0;
+}
+#rental-agreements li{
+    margin: 25px;
 }
