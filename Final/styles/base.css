@@ -240,7 +240,7 @@ input[type="submit"]:hover {
     background-image: url(https://images.pexels.com/photos/8332450/pexels-photo-8332450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
 
-.container {
+.container, .contact-container{
     display: flex; /* Use flexbox to divide the section */
     justify-content: space-between; /* Space the two parts evenly */
     width: 90%; /* Set a maximum width for the container */
@@ -277,3 +277,36 @@ input[type="submit"]:hover {
 /*CONTACT PAGE*/
 
 /*meet us section*/
+.contact-container{
+    justify-content: start;
+    padding: 60px 0;
+    margin: 70px;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+#contact-map-embed{
+    max-width: 90%;
+}
+.contact-map{
+    margin-left: 100px;
+}
+
+.contact-meetus{
+    padding-top: 8%;
+}
+#feedback-form{
+    margin-bottom: 10%;
+}
+
+/*RENTALS PAGE*/
+#rentals-title{
+    text-align: center;
+    padding: 5%;
+}
+.rental-type-container{
+    margin: 100px;
+    background-color: var(--primary);
+    padding: 10%;
+    text-align: center;
+}
